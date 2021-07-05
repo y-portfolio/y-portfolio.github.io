@@ -1,0 +1,110 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.8;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #333;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h1 {
+  margin: 0;
+}
+
+header {
+  margin-bottom: 66px;
+
+  #logo {
+    background-color: #f5eedd;
+    padding-top: 20px;
+    text-align: center;
+  }
+  
+  .header-btm {
+    background-image: url(../img/header.png);
+    width: 100%;
+    height: 39px;
+    text-align: center;
+  }
+}
+
+main {
+  background-image: url(../img/star.png);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  padding-bottom: 120px;
+
+  .wrap {
+    margin-top: 40px;
+  }
+
+  #profile {
+    width: 400px;
+    margin: 0 auto 120px;
+
+    .title {
+      text-align: center;
+    }
+
+    .profile-photo {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .profile-text {
+      margin-left: 42px;
+
+      ul {
+        list-style-type: square;
+        margin: 0;
+        padding-inline-start: 20px;
+      }
+    }
+  }  
+}
+
+#works {
+  width: 250px;
+  margin: 0 auto;
+  text-align: center;
+
+  .hp-link {
+    text-align: right;
+  }
+
+  .hp-box {
+    width: 246px;
+    margin-bottom: 50px;
+  }
+}
+
+
+@media (min-width: 900px) {
+  main {
+    .wrap {
+      display: flex;
+    }
+
+    #profile {
+      width: 600px;
+    }
+  }
+
+  #works {
+    width: 810px;
+
+    .hp-box {
+      margin-right: 34px;
+      margin-bottom: 0;
+    }
+  }
+}

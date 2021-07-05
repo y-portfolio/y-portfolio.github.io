@@ -1,0 +1,83 @@
+@charset "UTF-8";
+main a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+main a:hover {
+  text-decoration: underline;
+}
+
+main nav ol {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main nav ol li {
+  display: inline-block;
+  padding-right: 15px;
+}
+
+main nav ol li + li::before {
+  content: "＞";
+  padding-left: 3px;
+}
+
+main .works {
+  width: 250px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+main .works h1 {
+  display: inline-block;
+  margin-top: 40px;
+}
+
+main .works ul {
+  -webkit-padding-start: 20px;
+          padding-inline-start: 20px;
+}
+
+main .works .tit {
+  font-weight: bold;
+  border-bottom: solid 2px #333;
+}
+
+main .pc, main .sp {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+main .pc h2, main .sp h2 {
+  background-color: #7acdb4;
+  color: #fff;
+  font-size: 14px;
+  padding: 3px 10px;
+  display: inline-block;
+  margin-bottom: 7px;
+}
+
+main .pc {
+  margin-right: 34px;
+}
+
+main .sp {
+  margin-right: 45px;
+}
+
+main .text {
+  text-align: left;
+}
+
+main .text a {
+  font-weight: normal;
+}
+
+@media (min-width: 900px) {
+  main .works {
+    width: 810px;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,108 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.8;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #333;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h1 {
+  margin: 0;
+}
+
+header {
+  margin-bottom: 66px;
+}
+
+header #logo {
+  background-color: #f5eedd;
+  padding-top: 20px;
+  text-align: center;
+}
+
+header .header-btm {
+  background-image: url(../img/header.png);
+  width: 100%;
+  height: 39px;
+  text-align: center;
+}
+
+main {
+  background-image: url(../img/star.png);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  padding-bottom: 120px;
+}
+
+main .wrap {
+  margin-top: 40px;
+}
+
+main #profile {
+  width: 400px;
+  margin: 0 auto 120px;
+}
+
+main #profile .title {
+  text-align: center;
+}
+
+main #profile .profile-photo {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+main #profile .profile-text {
+  margin-left: 42px;
+}
+
+main #profile .profile-text ul {
+  list-style-type: square;
+  margin: 0;
+  -webkit-padding-start: 20px;
+          padding-inline-start: 20px;
+}
+
+#works {
+  width: 250px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#works .hp-link {
+  text-align: right;
+}
+
+#works .hp-box {
+  width: 246px;
+  margin-bottom: 50px;
+}
+
+@media (min-width: 900px) {
+  main .wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  main #profile {
+    width: 600px;
+  }
+  #works {
+    width: 810px;
+  }
+  #works .hp-box {
+    margin-right: 34px;
+    margin-bottom: 0;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
