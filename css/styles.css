@@ -49,7 +49,6 @@ main .wrap {
 }
 
 main #profile {
-  width: 400px;
   margin: 0 auto 120px;
 }
 
@@ -62,13 +61,9 @@ main #profile .profile-photo {
   margin-bottom: 30px;
 }
 
-main #profile .profile-text {
-  margin-left: 42px;
-}
-
 main #profile .profile-text ul {
   list-style-type: square;
-  margin: 0;
+  margin: 0 20px;
   -webkit-padding-start: 20px;
           padding-inline-start: 20px;
 }
@@ -96,6 +91,13 @@ main #profile .profile-text ul {
   }
   main #profile {
     width: 600px;
+  }
+  main #profile .profile-text {
+    margin-left: 42px;
+  }
+  main #profile .profile-text ul {
+    -webkit-padding-start: 20px;
+            padding-inline-start: 20px;
   }
   #works {
     width: 810px;

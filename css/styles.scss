@@ -48,7 +48,6 @@ main {
   }
 
   #profile {
-    width: 400px;
     margin: 0 auto 120px;
 
     .title {
@@ -61,11 +60,10 @@ main {
     }
 
     .profile-text {
-      margin-left: 42px;
 
       ul {
         list-style-type: square;
-        margin: 0;
+        margin: 0 20px;
         padding-inline-start: 20px;
       }
     }
@@ -96,6 +94,14 @@ main {
 
     #profile {
       width: 600px;
+
+      .profile-text {
+        margin-left: 42px;
+
+        ul {
+          padding-inline-start: 20px;
+        }
+      }
     }
   }
 
